@@ -1,0 +1,48 @@
+#osx noise
+.DS_Store
+
+#xcode noise
+*.pbxuser
+*.model
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.keep
+
+#build noise
+build/*
+build.output/*
+pkg/*
+cpd-output.*
+DerivedData
+
+#project user schemes etc.
+!*.xcodeproj/*.pbxproj
+!*.xcodeproj/xcshareddata
+
+*.xcworkspace/**
+!*.xcworkspace/*.xcworkspacedata
+!*.xcworkspace/xcshareddata/**
+
+Pods
+Podfile.lock
+.idea
+
+v1/CoreDataMigrationExample.xcworkspace/contents.xcworkspacedata
+v1/CoreDataMigrationExample.xcodeproj/project.xcworkspace/**
+v1/CoreDataMigrationExample.xcworkspace/xcuserdata/**
+v1/CoreDataMigrationExample.xcodeproj/xcuserdata/**
+v1/xcschememanagement.plist
+
+v2/CoreDataMigrationExample.xcworkspace/contents.xcworkspacedata
+v2/CoreDataMigrationExample.xcodeproj/project.xcworkspace/**
+v2/CoreDataMigrationExample.xcworkspace/xcuserdata/**
+v2/CoreDataMigrationExample.xcodeproj/xcuserdata/**
+v2/xcschememanagement.plist
+
+v3/CoreDataMigrationExample.xcworkspace/contents.xcworkspacedata
+v3/CoreDataMigrationExample.xcodeproj/project.xcworkspace/**
+v3/CoreDataMigrationExample.xcworkspace/xcuserdata/**
+v3/CoreDataMigrationExample.xcodeproj/xcuserdata/**
+v3/xcschememanagement.plist
